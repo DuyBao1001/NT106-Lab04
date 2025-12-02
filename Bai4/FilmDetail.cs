@@ -35,7 +35,7 @@ namespace Bai4
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi tải trình duyệt: " + ex.Message + "\nĐảm bảo đã cài NuGet 'WebView2'");
+                MessageBox.Show("Lỗi tải trình duyệt: " + ex.Message );
             }
         }
 

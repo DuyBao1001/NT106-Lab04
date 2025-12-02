@@ -41,7 +41,7 @@ namespace Bai4
 
             if (movieNodes == null || movieNodes.Count == 0)
             {
-                MessageBox.Show("Không lấy được dữ liệu phim. Vui lòng kiểm tra kết nối hoặc cấu trúc web.");
+                MessageBox.Show("Không lấy được dữ liệu phim");
                 return;
             }
 
@@ -96,7 +96,7 @@ namespace Bai4
         private void GenerateMovieControl(Movie movie)
         {
             Panel pnl = new Panel();
-            pnl.Size = new Size(200, 320); // Tăng chiều cao xíu
+            pnl.Size = new Size(200, 320);
             pnl.BorderStyle = BorderStyle.FixedSingle;
             pnl.Margin = new Padding(10);
 
