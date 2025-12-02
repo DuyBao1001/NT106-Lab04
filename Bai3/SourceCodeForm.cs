@@ -8,13 +8,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Bai4
+namespace Bai3
 {
-    public partial class Form1: Form
+    public partial class SourceCodeForm : Form
     {
-        public Form1()
+        public SourceCodeForm(string html)
         {
             InitializeComponent();
+            richTextBox1.Text = html;
         }
     }
 }
